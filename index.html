@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <h2 class="error"></h2>
+
+    <h1 class="playerName">Player - 1</h1>
+    
+    <!--==================== player - 1=========================-->
+    <div class="main playerOne">
+        <input  class="inputPlayerOne" type="number" placeholder="Player one input value">
+        <button class="playerOneButton">Guess</button>
+    </div>
+    <!--===================== player - 2 ========================-->
+    <div class="main playerTwo">
+        <p class="chanceNumber"> Chance left <span class="chanceCount"></span>/5</p>
+        <input class="inputPlayerTwo" type="number" placeholder="player two input value">
+        <button class="playerTwoButton">Go..</button>
+    </div>
+    <!--==================== player - 3 =========================-->
+    <div class="main playerThree">
+        <p class="chanceNumberS"> Chance left <span class="chanceCountS"></span>/5</p>
+        <input class="inputPlayerThree" type="number" placeholder="player three input value">
+        <button class="playerThreeButton">Go..</button>
+    </div>
+    <!--=================== winner part =========================-->
+    <div class="winner">
+        <img src="./images/winner.jpg" alt="Winner">
+        <p class="result">Winner</p>
+    </div>
+
+
+
+
+    <!-------------- javascript link -------------------------- -->
+    <script src="js/script.js"></script>
+</body>
+</html>
